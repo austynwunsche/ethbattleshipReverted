@@ -1,0 +1,30 @@
+.ReactTable {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.ReactTable .rt-noData {
+  top: 70%;
+  padding: 0.1em 0.3em;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.ReactTable .rt-tr {
+  background-color: #fff;
+}
+
+.ReactTable .rt-tr:hover {
+  background-color: #A6BCFF;
+  cursor: pointer;
+}
+
+.ReactTable .rt-td {
+  font-size: 1rem;
+  padding: 1em;
+  padding-left: 0.3em;
+}
+
+.ReactTable .rt-th {
+  background-color: #ccc;
+  text-align: left;
+}

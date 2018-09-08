@@ -1,0 +1,86 @@
+@import '../../utils/common.styl'
+
+.error
+  margin-bottom 1rem
+
+.meta
+  @extend $flexRowWrap
+  margin-bottom: 0.5em
+
+  & > div
+    margin-right 1em
+    margin-bottom 0.5em
+
+.ships
+  @extend $flexRowWrap
+  & > div
+    margin-right 0.5em
+    margin-bottom 0.5em
+
+
+.players
+  @extend $flexRowWrap
+  justify-content: flex-start
+
+.player
+  width 400px
+  margin 0.5em 10px 0.5em 0
+  font-size 0.9rem
+
+.playerBoard
+  position relative
+  @extend $flexColumn
+  background-color: #efefef
+  border-radius: 5px
+  padding 1rem
+
+.playerId
+  @extend $flexRowWrap
+  justify-content: center
+  font-size 0.8rem
+  margin-bottom 1rem
+
+.activePlayerIcon
+  font-size 2rem
+  color #A60CE8
+  margin-right 0.5em
+
+.playerHits
+  font-size 0.7rem
+  font-style italic
+  color #999
+  margin-bottom 0.3rem
+
+.noOpponentYet
+  font-size 1.2rem
+
+.statusText
+  font-weight bold
+
+$marker
+  @extend $flexColumn
+  width 100%
+  height 100%
+  font-size 1.5rem
+  padding 0.1em
+  & > i
+    display block
+
+.hitMarker
+  @extend $marker
+  color: #f00
+
+.missMarker
+  @extend $marker
+  color: #999
+
+.reveal
+  @extend $coverParent
+  @extend $flexColumn
+  justify-content: center
+  background-color: rgba(0, 0, 0, 0.6)
+  z-index 1
+  font-size 1.2rem
+  color #fff
+  text-align: center
+  padding 2em
