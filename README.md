@@ -19,7 +19,8 @@ Install Truffle
 ```
 npm install -g truffle
 ```
-Make sure Metamask is signed in with Ropsten or Rinkeby test networks.
+Make sure Metamask is signed in with Ropsten or Rinkeby test networks (you can interact locally with these test networks_. 
+Run your local private test RPC with [Ganache](https://truffleframework.com/ganache)
 
 ```
 sudo npm install truffle-hdwallet-provider --save
@@ -35,11 +36,11 @@ truffle develop
 ```
 Open a new tab in Terminal and run
 ```
-truffle deploy
+truffle migrate --reset
 ```
 Prepare and deploy the contracts with [Truffle](https://truffleframework.com/truffle)
 ```
-truffle migrate --reset
+truffle deploy
 ```
 Run the dApp [locally](http://localhost:3000/):
 ```
