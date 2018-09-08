@@ -22,7 +22,7 @@ npm install -g truffle
 Make sure Metamask is signed in with Ropsten or Rinkeby test networks.
 
 ```
-npm install truffle-hdwallet-provider --save
+sudo npm install truffle-hdwallet-provider --save
 ```
 ```
 sudo npm install --dotenv-extended
